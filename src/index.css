@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: rgba(231, 222, 222, 0);
+  transition: 1.5s;
+  font-family: 'DO Futuristic', sans-serif;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 120px;
+  margin: 10px 0;
+}
+
+.logo {
+  transition: 1.5s;
+}
+
+.title {
+  transition: 1.5s;
+}
+
+.title:hover{
+  filter: sepia(100%);
+  cursor: pointer;
+}
+
+.logo:hover {
+  filter: sepia(100%);
+  cursor: pointer;
+}
+
+.bg2 {
+  filter: sepia(100%);
+}
+
+button {
+  background: rgba(255, 255, 255, 0.014);
+  border-radius: 15px;
 }
